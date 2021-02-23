@@ -10,11 +10,16 @@ function createWindow () {
         fullscreen: false,
         webPreferences: {
             nodeIntegration: true,
-            //devTools: false
+            //devTools: false,
+            webSecurity: false,
+        },
+        node: {
+            __dirname: false,
+            __filename: false
         }
     });
 
-    win.loadFile('./public/index.html');
+    win.loadFile(`index.html`);
     win.minimize();
 };
 
