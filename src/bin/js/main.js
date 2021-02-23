@@ -85,3 +85,4 @@ var img = document.querySelector("img");
          console.log("getUserMedia not supported");
         }
        }
+       startr()

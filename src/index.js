@@ -8,19 +8,17 @@ function createWindow () {
         frame: true,
         maximizable: false,
         fullscreen: false,
+        alwaysOnTop: true,
+        x: 1200,
+        y: 1000,
         webPreferences: {
             nodeIntegration: true,
-            //devTools: false,
-            webSecurity: false,
-        },
-        node: {
-            __dirname: false,
-            __filename: false
+            devTools: false,
+            webSecurity: true,
         }
     });
 
     win.loadFile(`index.html`);
-    win.minimize();
 };
 
 app.whenReady().then(createWindow);
