@@ -1,0 +1,28 @@
+{
+  "name": "streamercam",
+  "version": "1.0.0",
+  "description": "Funny Picture = Good Webcam",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuzzDevDev/StreamerCam.git"
+  },
+  "keywords": [
+    "Streamer",
+    "webcam",
+    "twitch",
+    "tv",
+    "youtube",
+    "gaming",
+    "electronjs"
+  ],
+  "author": "Bleart Emini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BuzzDevDev/StreamerCam/issues"
+  },
+  "homepage": "https://github.com/BuzzDevDev/StreamerCam#readme"
+}
