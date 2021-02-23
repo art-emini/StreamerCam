@@ -1,3 +1,5 @@
 # StreamerCam
 
-Funny Picture = Good Webcam
+## Funny Pictures = Good Webcam
+
+Note: This is in beta, documentation is coming soon.
